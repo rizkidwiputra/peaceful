@@ -20,6 +20,7 @@ class OnBoarding2 extends StatelessWidget {
               ),
               const SizedBox(height: 100),
               TextField(
+                style: medium3.copyWith(color: primaryColor),
                 decoration: CustomComponents.textField('Your nickname...'),
               ),
               const SizedBox(height: 100),

@@ -41,7 +41,7 @@ class _LoginState extends State<Login> {
                   TextField(
                     obscureText: !passwordVisibility,
                     style: medium3.copyWith(color: primaryColor),
-                    decoration: CustomComponents.textField('Login').copyWith(
+                    decoration: CustomComponents.textField('Password').copyWith(
                       suffixIcon: IconButton(
                         icon: Icon(
                           passwordVisibility
