@@ -27,9 +27,9 @@ class _OnBoarding3State extends State<OnBoarding3> {
                 style: semiBold4,
                 textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 60),
+              const SizedBox(height: 100),
               ListTile(
-                title: Text('Male', style: bold4.copyWith(color: white)),
+                title: Text('Male', style: semiBold4.copyWith(color: white)),
                 leading: Radio<SingingCharacter>(
                   fillColor: MaterialStateColor.resolveWith((states) => white),
                   value: SingingCharacter.a,
@@ -42,7 +42,7 @@ class _OnBoarding3State extends State<OnBoarding3> {
                 ),
               ),
               ListTile(
-                title: Text('Famele', style: bold4.copyWith(color: white)),
+                title: Text('Female', style: semiBold4.copyWith(color: white)),
                 leading: Radio<SingingCharacter>(
                   fillColor: MaterialStateColor.resolveWith((states) => white),
                   value: SingingCharacter.b,
@@ -56,7 +56,7 @@ class _OnBoarding3State extends State<OnBoarding3> {
               ),
               ListTile(
                 title: Text('Neither of these',
-                    style: bold4.copyWith(color: white)),
+                    style: semiBold4.copyWith(color: white)),
                 leading: Radio<SingingCharacter>(
                   fillColor: MaterialStateColor.resolveWith((states) => white),
                   value: SingingCharacter.c,

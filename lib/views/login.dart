@@ -63,7 +63,7 @@ class _LoginState extends State<Login> {
                         onPressed: () {},
                         child: Text(
                           'Forgot password?',
-                          style: semiBold3.copyWith(color: white),
+                          style: semiBold1.copyWith(color: blueMing),
                           textAlign: TextAlign.right,
                         ),
                       ),
@@ -114,7 +114,7 @@ class _LoginState extends State<Login> {
                   ),
                   const SizedBox(height: 20),
                   Text(
-                    'By signing in, you are agreeing to ou\n Terms of Service and Privacy Policy',
+                    'By signing in, you are agreeing to our\n Terms of Service and Privacy Policy',
                     style: medium1.copyWith(color: grey),
                   ),
                   const SizedBox(height: 20),

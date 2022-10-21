@@ -16,6 +16,7 @@ const primaryColor = Color(0xff00203A);
 const secondaryColor = Color(0xff054177);
 const white = Colors.white;
 const grey = Color(0xff757575);
+const blueMing = Color(0xff00838F);
 
 extension MediaQueryValues on BuildContext {
   double get widthQuery => MediaQuery.of(this).size.width;
